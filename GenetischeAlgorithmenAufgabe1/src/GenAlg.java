@@ -10,7 +10,7 @@ public class GenAlg {
     private static int genecnt = 200;
     private static int genelen = 200;
     private static int replicant_sceme = 1;
-    private static int max_generations = 1000;
+    private static int max_generations = 3000;
     private static boolean saveBest = true;
     private static Genom genome;
 
