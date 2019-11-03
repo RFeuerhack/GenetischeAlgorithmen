@@ -7,11 +7,11 @@ public class GenAlg {
     private static double pc = 0.0;
     private static double pm = 0.0;
     private static double initrate = 0.05;
-    private static int genecnt = 20;
-    private static int genelen = 20;
-    private static int replicant_sceme = 2;
+    private static int genecnt = 200;
+    private static int genelen = 200;
+    private static int replicant_sceme = 1;
     private static int max_generations = 1000;
-    private static boolean saveBest = false;
+    private static boolean saveBest = true;
     private static Genom genome;
 
 
@@ -19,18 +19,10 @@ public class GenAlg {
         int rounds = 10;
 
         genome = new Genom(genecnt, genelen);
-        initgenome();
-        get_fitness();
-        for (int i =0;i<genecnt;i++)
-            System.out.println(Arrays.toString(genome.genes[i].bits) + " " + genome.genes[i].fitness);
-        System.out.println("");
-        replicate(replicant_sceme);
-        for (int i =0;i<genecnt;i++)
-            System.out.println(Arrays.toString(genome.genes[i].bits) + " " + genome.genes[i].fitness);
 
 
 
-        /*for (pc = 0.5; pc <= 0.9; pc += 0.02) {
+        for (pc = 0.5; pc <= 0.9; pc += 0.02) {
             for (pm = 0.0; pm <= 0.03; pm += 0.002) {
                 double x = 0;
                 for (int i = 0; i < rounds; i++) {
@@ -39,7 +31,7 @@ public class GenAlg {
                 System.out.println(pc + "\t" + pm + "\t" + x / rounds + " ");
             }
             System.out.print("\n");
-        }*/
+        }
     }
 
     private static int get_random_number(int von, int bis) {
@@ -71,11 +63,12 @@ public class GenAlg {
     }
 
     private static void crossover() {
+        Gene best = checkBest();
         for (int i = 0; i < (genecnt * pc); i++) {
             int p = get_random_number(0, genecnt);
-            int q = get_random_number(0, genelen);
+            int q = get_random_number(0, genecnt);
             int pos = get_random_number(0,genelen);
-            if (saveBest && (checkBest() == genome.genes[p] ||checkBest() == genome.genes[q] ))
+            if (saveBest && (best == genome.genes[p] ||best == genome.genes[q] ) )
                 i--;
             else
                 cross_two_genes(genome.genes[p], genome.genes[q], pos);
@@ -93,10 +86,11 @@ public class GenAlg {
     }
 
     private static void mutation() {
+        Gene best = checkBest();
         for (int i = 0; i < (genelen * genecnt * pm); i++) {
             int p = get_random_number(0, genecnt);
             int q = get_random_number(0, genelen);
-            if (saveBest && (checkBest() == genome.genes[p] ||checkBest() == genome.genes[q] ))
+            if (saveBest && (best == genome.genes[p]) )
                 i--;
             else
                 set_gene_pos(genome.genes[p], q, -1);
@@ -149,18 +143,14 @@ public class GenAlg {
         for (int i = 1; i < genecnt; i++) {
             genome.genes[i].ps = (2 - s) / n + (2 * i * (s - 1)) / (n * (n - 1));
             genome.genes[i].ps_kum = genome.genes[i].ps + genome.genes[i - 1].ps_kum;
-            System.out.println(genome.genes[i].ps);
-            System.out.println(genome.genes[i].ps_kum);
         }
+
+        Random x = new Random();
         for (int i = 0;i<genecnt;i++) {
-            Random x = new Random();
             double dart = x.nextDouble();
-            System.out.println(dart);
-            for (int j=1;j<genecnt;j++){
-                if (genome.genes[j].ps_kum > dart && genome.genes[j-1].ps_kum < dart)
-                    temp.genes[i] = genome.genes[j].copyof();
-                else if (genome.genes[j].ps_kum > dart)
-                    temp.genes[i] = genome.genes[j-1].copyof();
+            for (int j=0;j<genecnt;j++){
+                if (genome.genes[j].ps_kum < dart && genome.genes[j+1].ps_kum >= dart)
+                    temp.genes[i] = genome.genes[j + 1].copyof();
             }
         }
         genome.genes = temp.genes;
@@ -196,7 +186,11 @@ public class GenAlg {
 
     private static Gene checkBest (){
         get_fitness();
-        sort_fitness();
-        return genome.genes[0];
+        Gene best = genome.genes[0];
+        for (int i = 1; i < genome.genes.length; i++){
+            if (genome.genes[i].fitness > best.fitness)
+                best = genome.genes[i];
+        }
+        return best;
     }
 }

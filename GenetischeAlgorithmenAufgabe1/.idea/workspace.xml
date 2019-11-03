@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e77de77-8d19-40d2-bbc4-23e8c17532e8" name="Default Changelist" comment="" />
+    <list default="true" id="9e77de77-8d19-40d2-bbc4-23e8c17532e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ranksavebest.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ranksavenone.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rep1savebest.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneticsResults.dat" beforeDir="false" afterPath="$PROJECT_DIR$/rep1savenone.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GenetischeAlgorithmenAufgabe1/GenAlg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GenetischeAlgorithmenAufgabe1/GenAlg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenAlg.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +29,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Ruf2DMKw480tom6TroistfNRxz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Desktop/PiS/Ichweißauchnichtmehr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -71,11 +86,28 @@
       <workItem from="1570453931550" duration="12959000" />
       <workItem from="1570521709697" duration="23419000" />
       <workItem from="1571050580499" duration="29029000" />
+      <workItem from="1572596745907" duration="4601000" />
+      <workItem from="1572686091693" duration="7493000" />
+      <workItem from="1572717718860" duration="1719000" />
+      <workItem from="1572768578619" duration="5644000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>
