@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e77de77-8d19-40d2-bbc4-23e8c17532e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ranksavebest.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ranksavenone.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rep1savebest.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s20.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gnuscipt.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneticsResults.dat" beforeDir="false" afterPath="$PROJECT_DIR$/rep1savenone.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GenetischeAlgorithmenAufgabe1/GenAlg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GenetischeAlgorithmenAufgabe1/GenAlg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenAlg.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +82,7 @@
       <workItem from="1572596745907" duration="4601000" />
       <workItem from="1572686091693" duration="7493000" />
       <workItem from="1572717718860" duration="1719000" />
-      <workItem from="1572768578619" duration="5644000" />
+      <workItem from="1572768578619" duration="9296000" />
     </task>
     <servers />
   </component>
