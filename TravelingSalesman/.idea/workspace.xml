@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0e33ec6-af43-4137-aaa2-eb937cbd5acd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/GenetischeAlgorithmen.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Genome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenetischeAlgorithmenAufgabe1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GenetischeAlgorithmenAufgabe1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesman/Gene.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesman/Gene.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesman/Genome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesman/Genome.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesman/TravelingSalesman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesman/TravelingSalesman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Genome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Genome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TravelingSalesman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TravelingSalesman.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,6 +75,13 @@
       <updated>1572189671466</updated>
       <workItem from="1572189675484" duration="6530000" />
       <workItem from="1572269357413" duration="4951000" />
+      <workItem from="1573117097201" duration="16390000" />
+      <workItem from="1573135615097" duration="1219000" />
+      <workItem from="1573145302791" duration="10462000" />
+      <workItem from="1573172489495" duration="576000" />
+      <workItem from="1573203283966" duration="15141000" />
+      <workItem from="1573426597175" duration="755000" />
+      <workItem from="1573427396408" duration="1360000" />
     </task>
     <servers />
   </component>
@@ -86,7 +93,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
