@@ -1,0 +1,159 @@
+ splot "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/100 false 0"
+set pm3d at bs
+stats "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/100 false 0" using 3
+set label 1 sprintf("min: %d pc: 0.95 pm: 0.015\n 10x10-36border\nruntime: ca. 10min",STATS_min) at screen 0.95, screen 0.1 right font "Courier New,10"
+set view 72,80,1,1
+set style data lines
+set xlabel "pc" offset character 7, -0.95, 0 font "Courier New,10"
+set ylabel "pm" offset character -3, -0.195, 0 font "Courier New,10"
+set ytics out offset 0,-0.7
+set label 2 "generation" font "Courier New,10" at graph 0,-0.16,0.5 rotate by 90 center
+set ytics rotate by -45
+unset key
+set terminal png size 1200,800 font "arial,8"
+set output "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/plots/BorderRep0Pop100Save0.png"
+replot
+
+ splot "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/100 false 1"
+set pm3d at bs
+stats "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/100 false 1" using 3
+set label 1 sprintf("min: %d pc: 0.95 pm: 0.015\n 10x10-36border\nruntime: ca. 20min",STATS_min) at screen 0.95, screen 0.1 right font "Courier New,10"
+set view 72,80,1,1
+set style data lines
+set xlabel "pc" offset character 7, -0.95, 0 font "Courier New,10"
+set ylabel "pm" offset character -3, -0.195, 0 font "Courier New,10"
+set ytics out offset 0,-0.7
+set label 2 "generation" font "Courier New,10" at graph 0,-0.16,0.5 rotate by 90 center
+set ytics rotate by -45
+unset key
+set terminal png size 1200,800 font "arial,8"
+set output "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/plots/BorderRep1Pop100Save0.png"
+replot
+
+ splot "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/100 false 1 41.65"
+set pm3d at bs
+stats "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/100 false 1 41.65" using 3
+set label 1 sprintf("min: %d pc: 0.95 pm: 0.055\n 10x10-36-dist42.64\nruntime: 20min",STATS_min) at screen 0.95, screen 0.1 right font "Courier New,10"
+set view 72,80,1,1
+set style data lines
+set xlabel "pc" offset character 7, -0.95, 0 font "Courier New,10"
+set ylabel "pm" offset character -3, -0.195, 0 font "Courier New,10"
+set ytics out offset 0,-0.7
+set label 2 "generation" font "Courier New,10" at graph 0,-0.16,0.5 rotate by 90 center
+set ytics rotate by -45
+unset key
+set terminal png size 1200,800 font "arial,8"
+set output "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/plots/CenterRep1Pop100Save0.png"
+replot
+
+ splot "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/100 false 2"
+set pm3d at bs
+stats "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/100 false 2" using 3
+set label 1 sprintf("min: %d pc: 0.85 pm: 0.055\n 10x10-36border\nruntime: ca. 20min",STATS_min) at screen 0.95, screen 0.1 right font "Courier New,10"
+set view 72,80,1,1
+set style data lines
+set xlabel "pc" offset character 7, -0.95, 0 font "Courier New,10"
+set ylabel "pm" offset character -3, -0.195, 0 font "Courier New,10"
+set ytics out offset 0,-0.7
+set label 2 "generation" font "Courier New,10" at graph 0,-0.16,0.5 rotate by 90 center
+set ytics rotate by -45
+unset key
+set terminal png size 1200,800 font "arial,8"
+set output "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/plots/BorderRep2Pop100Save0.png"
+replot
+
+ splot "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/100 true 0"
+set pm3d at bs
+stats "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/100 true 0" using 3
+set label 1 sprintf("min: %d pc: 0.95 pm: 0.005\n 10x10-36border\nruntime: ca. 10min",STATS_min) at screen 0.95, screen 0.1 right font "Courier New,10"
+set view 72,80,1,1
+set style data lines
+set xlabel "pc" offset character 7, -0.95, 0 font "Courier New,10"
+set ylabel "pm" offset character -3, -0.195, 0 font "Courier New,10"
+set ytics out offset 0,-0.7
+set label 2 "generation" font "Courier New,10" at graph 0,-0.16,0.5 rotate by 90 center
+set ytics rotate by -45
+unset key
+set terminal png size 1200,800 font "arial,8"
+set output "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/plots/BorderRep0Pop100Save1.png"
+replot
+
+ splot "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/100 true 0 41.65"
+set pm3d at bs
+stats "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/100 true 0 41.65" using 3
+set label 1 sprintf("min: %d pc: 0.95 pm: 0.025\n 10x10-36-dist42.64\nruntime: ca. 10min",STATS_min) at screen 0.95, screen 0.1 right font "Courier New,10"
+set view 72,80,1,1
+set style data lines
+set xlabel "pc" offset character 7, -0.95, 0 font "Courier New,10"
+set ylabel "pm" offset character -3, -0.195, 0 font "Courier New,10"
+set ytics out offset 0,-0.7
+set label 2 "generation" font "Courier New,10" at graph 0,-0.16,0.5 rotate by 90 center
+set ytics rotate by -45
+unset key
+set terminal png size 1200,800 font "arial,8"
+set output "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/plots/CenterRep0Pop100Save1.png"
+replot
+
+ splot "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/100 true 1"
+set pm3d at bs
+stats "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/100 true 1" using 3
+set label 1 sprintf("min: %d pc: 0.95 pm: 0.040\n 10x10-36border\nruntime: ca. 25min",STATS_min) at screen 0.95, screen 0.1 right font "Courier New,10"
+set view 72,80,1,1
+set style data lines
+set xlabel "pc" offset character 7, -0.95, 0 font "Courier New,10"
+set ylabel "pm" offset character -3, -0.195, 0 font "Courier New,10"
+set ytics out offset 0,-0.7
+set label 2 "generation" font "Courier New,10" at graph 0,-0.16,0.5 rotate by 90 center
+set ytics rotate by -45
+unset key
+set terminal png size 1200,800 font "arial,8"
+set output "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/plots/BorderRep1Pop100Save1.png"
+replot
+
+ splot "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/100 true 2"
+set pm3d at bs
+stats "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/100 true 2" using 3
+set label 1 sprintf("min: %d pc: 0.95 pm: 0.025\n 10x10-36border\nruntime: ca. 25min",STATS_min) at screen 0.95, screen 0.1 right font "Courier New,10"
+set view 72,80,1,1
+set style data lines
+set xlabel "pc" offset character 7, -0.95, 0 font "Courier New,10"
+set ylabel "pm" offset character -3, -0.195, 0 font "Courier New,10"
+set ytics out offset 0,-0.7
+set label 2 "generation" font "Courier New,10" at graph 0,-0.16,0.5 rotate by 90 center
+set ytics rotate by -45
+unset key
+set terminal png size 1200,800 font "arial,8"
+set output "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/plots/BorderRep2Pop100Save1.png"
+replot
+
+ splot "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/1000 false 1"
+set pm3d at bs
+stats "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/1000 false 1" using 3
+set label 1 sprintf("min: %d pc: 0.95 pm: 0.010\n 10x10-36border\nruntime: ca. 80min",STATS_min) at screen 0.95, screen 0.1 right font "Courier New,10"
+set view 72,80,1,1
+set style data lines
+set xlabel "pc" offset character 7, -0.95, 0 font "Courier New,10"
+set ylabel "pm" offset character -3, -0.195, 0 font "Courier New,10"
+set ytics out offset 0,-0.7
+set label 2 "generation" font "Courier New,10" at graph 0,-0.16,0.5 rotate by 90 center
+set ytics rotate by -45
+unset key
+set terminal png size 1200,800 font "arial,8"
+set output "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/plots/BorderRep1Pop1000Save0.png"
+replot
+
+ splot "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/1000 false 1 0 41.65"
+set pm3d at bs
+stats "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/1000 false 1 41.65" using 3
+set label 1 sprintf("min: 12 pc: 0.95 pm: 0.005\n 10x10-36-dist42.64\nruntime: ca. 90min") at screen 0.95, screen 0.1 right font "Courier New,10"
+set view 72,80,1,1
+set style data lines
+set xlabel "pc" offset character 7, -0.95, 0 font "Courier New,10"
+set ylabel "pm" offset character -3, -0.195, 0 font "Courier New,10"
+set ytics out offset 0,-0.7
+set label 2 "generation" font "Courier New,10" at graph 0,-0.16,0.5 rotate by 90 center
+set ytics rotate by -45
+unset key
+set terminal png size 1200,800 font "arial,8"
+set output "C:/Users/Robert/Desktop/GenetischeAlgorithmen/TravelingSalesman/plots/CenterRep1Pop1000Save0.png"
+replot

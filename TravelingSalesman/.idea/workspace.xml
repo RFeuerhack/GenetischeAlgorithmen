@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0e33ec6-af43-4137-aaa2-eb937cbd5acd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../GenetischeAlgorithmenAufgabe1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GenetischeAlgorithmenAufgabe1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 false 0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 false 1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 false 1 41.65" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 false 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 true 0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 true 0 41.65" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 true 1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 true 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000 false 1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000 false 1 41.65" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/200towns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/50towns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gnuscipt.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesman/Gene.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesman/Gene.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesman/Genome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesman/Genome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/klein border" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TravelingSalesman/TravelingSalesman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TravelingSalesman/TravelingSalesman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Genome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Genome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TravelingSalesman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TravelingSalesman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/yS.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +46,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Robert\Desktop\GenetischeAlgorithmen\TravelingSalesman" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,6 +98,10 @@
       <workItem from="1573203283966" duration="15141000" />
       <workItem from="1573426597175" duration="755000" />
       <workItem from="1573427396408" duration="1360000" />
+      <workItem from="1573816184004" duration="3062000" />
+      <workItem from="1573908904355" duration="1317000" />
+      <workItem from="1573947616447" duration="1971000" />
+      <workItem from="1573949804529" duration="49701000" />
     </task>
     <servers />
   </component>
